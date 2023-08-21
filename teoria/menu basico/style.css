@@ -1,0 +1,36 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+header{
+    display: flex;
+    background-color: rgb(134, 114, 236);
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+.logo{
+display: flex;
+align-items: center;
+}
+.logo img{
+    height: 50px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 50px;
+}
+nav a:hover{
+    color: aliceblue;
+}
+@media (max-width: 680px) {
+    header{
+        flex-direction: column;
+    }
+}nav{
+    padding: 10px 0px;
+}
